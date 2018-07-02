@@ -1,0 +1,44 @@
+body, html {
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+    font-family: 'Vera Sans Mono', 'Markazi Text', serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Programming.jpg");
+    background-repeat: repeat-y;
+    margin-left: 150px;  
+}
+h1, h2, h3 {
+    text-align: center;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+
+.clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-btn {
+    display: flex;
+    margin-top: 150px;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(87, 69, 170);
+    color: whitesmoke;
+    padding: 20px;
+
+}
+input:hover {
+    background-color: #E6E6FA;
+    border-color: #E6E6FA;
+    color: rgb(87, 69, 170);
+    border-width: 5px;
+    cursor: pointer;
+}
